@@ -1,4 +1,64 @@
 /* NOTE: lime green borders are just for seeing containers easily */ 
+
+
+/* IMG CAROUSEL STUFF */
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: Center;
+  
+}
+
+.container img {
+  width: 100%;
+  z-index: -2;
+}
+
+button {
+  height: 10%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: grey;
+  opacity:60%;
+  padding: 1em;
+  display: flex;
+  
+}
+
+button .arrow {
+  border: solid #fff;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.3 ease-out;
+  outline: none;
+  
+  
+}
+
+#right-btn {
+  margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+  transform: rotate(-45deg);
+}
+
+
+#left-btn {
+  z-index: 0;
+  margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+  transform: rotate(135deg);
+  
+}
+
+/* END OF IMG CAROUSEL STUFF */
+
 *   {
     margin: 0;
     box-sizing: border-box;
@@ -67,7 +127,18 @@
     font-size: 3rem;
     margin: 20px;
   }
+
+
+  .events-container {
+    background:#8A9A5B;
+  }
   
+  .events-container p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    
+  }
   .about-container p {
     font-size: 2rem;
     font-weight: bold;
@@ -85,6 +156,11 @@
     font-size: 15px;
   }
   
+  .events-img-box {
+    margin: 20px;
+    box-shadow: 3px 3px 3px #f1f1f1;
+    background:#8A9A5B;
+  }
   .rsvp {
     background: #A679CA;
     color: white;
@@ -112,9 +188,7 @@
     box-shadow: 3px 3px 3px #f1f1f1;
   }
   
-  form h2, input {
-    margin-top: 20px;
-  }
+
   
   #button {
     background: #F5F5F5;
@@ -126,8 +200,8 @@
      background:#ebe8fc;
    }
    
-   .contact {
-   }
+   /*.contact {
+   }*/
    
    .card-container {
      display: flex;
