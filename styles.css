@@ -23,7 +23,7 @@
   } 
 
    h1 { 
-    border: 2px solid greenyellow;
+    /*border: 2px solid greenyellow;*/
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -74,7 +74,6 @@
     font-size: 2rem;
     font-weight: bold;
     margin-top: 15px;
-    /*text-decoration-color:#8A9A5;*/
   }
 
   .events-container  {
@@ -154,6 +153,9 @@ a .buy-btn {
   padding: 10px;
 }
 
+#contact {
+  background: #C0B9DD;
+}
 /*a:hover {
   background: lightblue;
   transform: .5s
