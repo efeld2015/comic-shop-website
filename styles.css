@@ -12,7 +12,7 @@
     justify-content: center;
   }
 
-  .fa { /* styles socials icons */
+  .fa-brands { /* styles socials icons */
     margin: 15px;
     width: 50px;
     text-decoration: none;
@@ -64,6 +64,9 @@
     background:#F5F5F5;
   }
   
+  p {
+    font-family:"Helvetica";
+  }
   .about-container {
     font-size: 3rem;
     margin: 20px;
@@ -71,16 +74,11 @@
 
 
   .about-container p {
-    font-size: 2rem;
     font-weight: bold;
     margin-top: 15px;
   }
 
-  .events-container  {
-    background:#8A9A5B;
-  
-  }
-  
+
   .events-container h2 {
     font-size: 4rem;
     margin: 20px;
